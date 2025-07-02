@@ -3,7 +3,13 @@ uuid = "3ce79a6f-1dd5-420a-a54e-90f99dd7af60"
 authors = ["Rahul Manavalan"]
 version = "1.0.0-DEV"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
 [compat]
+LinearAlgebra = "1.11.0"
+SpecialFunctions = "2.5.1"
 julia = "1.6.7"
 
 [extras]
